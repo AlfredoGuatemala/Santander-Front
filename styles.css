@@ -7,17 +7,30 @@
 .logo {
    width: min-content;
    height:100%;
+   
 
 }
 
+.logo  {
+    width: 20px;
+    height: 10px;
+    padding-bottom: 500px;
+    border: 1px;
+    margin: 0%;
+}
 .navbar {
-    width: 70%;
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+    border: 5px rgb(0, 118, 197);
+    margin: 10px;
     text-align: center;
     color: goldenrod;
     font-weight: 500;
     line-height: 45px;
     font-family: sans-serif;
-    padding: 0px  25px 0px 25px;
+
+    
 
 }
 .menu-item {
@@ -38,7 +51,8 @@
 }
 
 .actions a{
-    color: green;
+    color: rgb(0, 45, 128);
+    font-size: 50px;
 }
 
 body {
@@ -46,7 +60,12 @@ body {
 }
 
 h1 {
-    font: size 200px; 
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+    border: 5px rgb(0, 118, 197);
+    margin: 10px;
+    font: size 400px; 
     color: #46484c;
     text-align: center;
     
@@ -67,12 +86,13 @@ button {
 .actions button {
     color: white;
     background-color: grey;
-    padding-left: 14x;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    text-align: center;
+    padding-left: 24x;
+    padding-right: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     border: 0;
-    border-radius: 55px;
+    border-radius: 65px;
 }
 .actions {
    width: 15%;
@@ -101,3 +121,6 @@ li {
     height: 100%;
     line-height: 15px;
     }
+.artice {
+    font-size: 30px;
+}
