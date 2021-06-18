@@ -1,5 +1,6 @@
 .logo {
-    resize: 20px;
+   width: min-content;
+   height:100%;
 
 }
 
@@ -11,8 +12,8 @@
     line-height: 45px;
     font-family: sans-serif;
     padding: 0px  25px 0px 25px;
- 
 }
+
 body {
     background-color: #dfdbd7;
 }
@@ -32,9 +33,18 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
+.actions {
+   width: 15%;
+   text-align: right;
+   font-size: 18px;
+   font-weight: 600; 
+}
+
 .header {
     margin-top: 40px;
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 0;
     line-height: 45px;
 }
@@ -45,8 +55,8 @@ li {
 
 .header > * {
     display: inline-block;
-    font-size: 16px;
+    font-size: 36px;
     vertical-align: middle;
     height: 100%;
-    line-height: 100%;
+    line-height: 45px;
     }
