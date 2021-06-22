@@ -125,6 +125,7 @@ li {
     font-size: 40px;
     line-height: 48px;
     color: #025157;
+    margin: 50px;
   }
   
   .publicidad > p {
@@ -132,6 +133,7 @@ li {
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
+    margin: 50px;
   }
   
   .publicidad > form {
@@ -141,6 +143,7 @@ li {
   .publicidad > form p {
     color: #025157;
     margin-right: 18px;
+    margin: 50px;
   }
   
   .promo {
