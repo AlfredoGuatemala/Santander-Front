@@ -56,7 +56,13 @@ h1 {
     font: size 400px; 
     color: #46484c;
     text-align: center;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: inline;
+}
 }
 
 p {
@@ -169,7 +175,7 @@ li {
   }
 
   main {
-    margin-top: 1885px;
+    margin-top: 885px;
     text-align: center;
   }
 
