@@ -44,7 +44,7 @@
 }
 
 body {
-    background-color: #86baca;
+    background-color: #cae3eb;
 }
 
 h1 {
@@ -62,7 +62,6 @@ h1 {
     right: 0;
     align-items: center;
     display: inline;
-}
 }
 
 p {
@@ -119,9 +118,7 @@ li {
     font-size: 30px;
 }
 
-.publicidad {
-    /* container styles if any */
-  }
+
   
   .publicidad h3 {
     font-family: "Alegreya", serif;
