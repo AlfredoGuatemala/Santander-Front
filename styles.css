@@ -103,6 +103,7 @@ button {
     font-family: sans-serif;
 }
 
+
 li {
     display: inline;
 }
@@ -114,6 +115,8 @@ li {
     height: 100%;
     line-height: 15px;
     }
+
+    
 .artice {
     font-size: 30px;
 }
@@ -189,4 +192,4 @@ li {
     color: goldenrod;
     font-weight: 500px;
     line-height: 45px;
-    font-family: sans-serif;
+    font-family: sans-serif;  
