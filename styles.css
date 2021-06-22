@@ -18,21 +18,9 @@
     border: 0px;
     margin: 0%;
     
-.navbar {
-    width: 1000px;
-    height: 300px;
-    padding: 40px;
-    border: 5px rgb(0, 118, 197);
-    margin: 10px;
-    text-align: center;
-    color: goldenrod;
-    font-weight: 500;
-    line-height: 45px;
-    font-family: sans-serif;
-
-    
 
 }
+
 .menu-item {
     display: inline;
     margin-right: 25px;
@@ -56,7 +44,7 @@
 }
 
 body {
-    background-color: #86baca;
+    background-color: #e4a8d5;
 }
 
 h1 {
@@ -68,7 +56,13 @@ h1 {
     font: size 400px; 
     color: #46484c;
     text-align: center;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: inline;
+}
 }
 
 p {
@@ -175,12 +169,24 @@ li {
   .fixed-header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;git statusd
     right: 0;
     background-color: #fffbf7;
   }
 
   main {
-    margin-top: 1885px;
+    margin-top: 885px;
     text-align: center;
   }
+
+  .navbar {
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+    border: 5px rgb(0, 118, 197);
+    margin: 10px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: 500px;
+    line-height: 45px;
+    font-family: sans-serif;
