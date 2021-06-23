@@ -4,12 +4,59 @@
     padding: 0; 
 }
 
+body {
+  background-color: #cae3eb;
+}
+
+
+.navbar {
+  background-color: honeydew;
+  text-align:right;
+  font-family: sans-serif;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+
+.navbar ul li a {
+  display: block;
+  border: 300px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: 20em;
+
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  justify-content: space-between;
+}
+
+.logo {
+  list-style-type: none;
+  background-image: url("https://image.flaticon.com/icons/png/512/4864/4864194.png;");
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: .5em 0 1.5em 1.5em;
+  margin-left: 1em;
+    
+ }
 .logo {
    width: min-content;
    height:100%;
-   
+  
 
 }
+
 
 .logo  {
     width: 0px;
@@ -28,14 +75,16 @@
 }
 
 .actions {
-    width: 15%;
+    width: 70%;
     text-align: right;
     font-size: 16x;
+    display: inline;
 }
 
 .actions > * {
     margin-right: 10px;
     margin-left: 10px;
+
 }
 
 .actions a{
@@ -43,29 +92,25 @@
     font-size: 50px;
 }
 
-body {
-    background-color: #cae3eb;
+.futuro {
+
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: brown;
 }
 
 h1 {
-    width: 100px;
-    height: 300px;
+    
+    height: 200px;
     padding: 40px;
     border: 5px rgb(0, 118, 197);
     margin: 10px;
-    font: size 400px; 
-    color: #46484c;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
-    display: inline;
+    font: size 40px; 
+    color: #284070;
 }
 
 p {
-    color: #8b8b8bcc;
+    color: #f7f7f7fd;
     font-family: verdana;
     
 }
@@ -86,6 +131,7 @@ button {
     padding-bottom: 22px;
     border: 0;
     border-radius: 65px;
+    align-items: flex-end;
 }
 .actions {
    width: 15%;
@@ -95,27 +141,27 @@ button {
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-    line-height: 45px;
-    font-family: sans-serif;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  line-height: 45px;
+  font-family: sans-serif;
 }
-
-
 li {
     display: inline;
+    margin: 2ex;
+    border: 2ex;
+   
 }
 
 .header > * {
-    display: inline-block;
-    font-size: 36px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 15px;
-    }
-
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 15px;
+  }
     
 .artice {
     font-size: 30px;
@@ -182,25 +228,16 @@ li {
     text-align: center;
   }
 
-  .navbar {
-    width: 1000px;
-    height: 300px;
-    padding: 40px;
-    border: 5px rgb(0, 118, 197);
-    margin: 10px;
-    text-align: center;
-    color: goldenrod;
-    font-weight: 500px;
-    line-height: 45px;
-    font-family: sans-serif;  
+ 
 
     .success-stories {
-      background-color: #a1d683;
+      background-color: #37ffa1;
       padding: 5% 15%;
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: space-around;
-    }
+    }  
     
     .success-stories .overview {
       flex: 2;
@@ -305,7 +342,7 @@ li {
     .success-stories .stories-carousel .card .card-body .results {
       display: flex;
       align-items: center;
-      color: #828282;
+      color: #ffffff;
     }
     
     .success-stories .stories-carousel .card .card-body .results img {
