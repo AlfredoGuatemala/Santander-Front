@@ -450,7 +450,7 @@ li {
     .how-does-it-work {
      
       background-color: #fffbf7;
-      padding: 5% 10%;
+      padding: 10% 10%;
       text-align: center;
       width: 1000px;
     }
@@ -550,6 +550,72 @@ li {
       font-weight: 600;
       text-decoration: none;
     }
+
+      /** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+    h1 {
+      font-size: 30px;
+    }
+  }
+  
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+    h1 {
+      font-size: 30px;
+    }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar, .actions {
+    display: inline;
+  }
+  main {
+    margin-top: 130px;
+  }
+    h1 {
+      font-size: 30px;
+    }
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+    h1 {
+      font-size: 30px;
+    } 
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  .navbar, .actions {
+    display: inline;
+  }
+  main {
+    margin-top: 130px;
+  }
+    h1 {
+      font-size: 30px;
+    } 
+}
 
     @media (max-width: 575px) {
       main {
@@ -668,3 +734,4 @@ li {
       margin-top: 30px;
     }
   }
+
