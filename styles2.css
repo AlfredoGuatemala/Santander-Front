@@ -12,15 +12,15 @@ body {
 }
 
 .navbar {
-    background-color: snow;
+    background-color: #fffbf7;
 }
 
 .navbar-light .nav-item .nav-link {
-    color:teal;
+    color: #025157;
 }
 
 .navbar-light .navbar-toggler {
-    border-color: teal;
+    border-color: #025157;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -39,12 +39,12 @@ body {
 }
 
 .actions a {
-    color:rgb(95, 219, 12);
+    color: #67b54b;
 }
 
 .actions button {
     color:white;
-    background-color: yellowgreen;
+    background-color: #67b54b;
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 12px;
@@ -116,7 +116,7 @@ figure.intro > img {
     display: flex;
     max-width: 70%;
     margin: 100px auto;
-    align-items: auto;
+    align-items: center;
 }
 
 .explanatory-video {
@@ -181,7 +181,7 @@ figure.intro > img {
 .success-stories .overview p {
     color: #343434;
     font-size: 18px;
-    line-height: 1.5px;
+    line-height: 1.5;
     margin-bottom: 1rem;
 }
 
@@ -217,7 +217,7 @@ figure.intro > img {
 .success-stories .stories-carousel .card .card-media img {
     width: 100%;
     max-height: 16vw;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
@@ -304,7 +304,7 @@ figure.intro > img {
     grid-template: repeat(2,330px) / repeat(2, 1fr);
 }
 
-.features .features-card {
+.features .feature-card {
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px;
@@ -316,40 +316,40 @@ figure.intro > img {
     overflow: hidden;
 }
 
-.features .features-card .features-content {
+.features .feature-card .feature-content {
     padding: 30px 20px 40px 40px;
-    flex 2
+    flex: 2;
 }
 
-.features .features-card .features-content > * {
+.features .feature-card .feature-content > * {
     margin-bottom: 1rem;
     margin-top: 0;
 }
 
-.features .features-card .features-content img {
+.features .feature-card .feature-content img {
     width: 50px;
 }
 
-.features .features-card .features-content h3 {
+.features .feature-card .feature-content h3 {
     font-size: 24px;
     color: #343434;
     font-weight: 400;
 }
 
-.features .features-card .features-content p {
+.features .feature-card .feature-content p {
     font-size: 16px;
     color: #7e7e7e;
     font-weight: 400;
 }
 
-.features .features-card .features-content a {
+.features .feature-card .feature-content a {
     font-size: 16px;
     color:#67b54b;
     font-weight: 600;
     text-decoration: none;
 }
 
-.features .features-card .features-image {
+.features .feature-card .feature-image {
     flex: 1;
     width: 40%;
     position: relative;
@@ -357,9 +357,330 @@ figure.intro > img {
     height: 80%;
 }
 
-.features .features-card .features-image figure,
-.features .features-card .features-image img {
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
     margin-top: 0;
     height: 100%;
 }
+
+.how-does-it-work {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
 }
+
+.how-does-it-work .title {
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: "Alegreya, serif";
+    margin-bottom: 8px;
+}
+
+.how-does-it-work .description {
+    max-width: 60%;
+    color:#46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.how-does-it-work .description a {
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.how-does-it-work button {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px 12px 6px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 0%;
+    margin-top: 6px;
+}
+
+.how-does-it-work .steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:left;
+}
+
+.how-does-it-work .steps .card-step .card-step-image {
+    position: relative;
+    height: 350px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.how-does-it-work .steps .card-step .card-step-body {
+    padding: 25px;
+}
+
+.how-does-it-work  .steps .card-step .card-step-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya, serif";
+    color: #025157;
+    font-weight: 400;
+    text-align:center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body a {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.formulario {
+    background-color: #a1d683;
+    padding-bottom: 5%;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-end;    
+}
+
+.formulario p {
+    font-size: 40px;
+    color: #f8f8f8;
+    font-weight: 400;
+}
+
+.formulario label {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color:#025157
+}
+.formulario button {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 7%;
+    line-height: 20px;
+    height: 80px;
+    margin-left: 0;
+    border-radius: 10%;
+    margin-top: 6px;
+}
+
+
+
+
+@media (max-width: 575px) {
+    main {
+      margin-top: 130px;
+    }
+  
+    h1,
+    .how-does-it-work .title,
+    .blog .title {
+      font-size: 30px;
+    }
+  
+    form.signup-form {
+      font-size: 14px;
+    }
+  
+    form.signup-form input {
+      width: 60%;
+    }
+  
+    form.signup-form button {
+      width: 40%;
+    }
+  
+    .banner > img {
+      width: 100%;
+    }
+  
+    .promo {
+      flex-direction: column;
+      max-width: 90%;
+    }
+  
+    .explanatory-video > video {
+      width: 100%;
+    }
+  
+    .publish {
+      margin-top: 10px;
+    }
+  
+    .publish > h3,
+    .success-stories > .overview > h2 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  
+    .publish > form {
+      flex-direction: column;
+    }
+  
+    .publish > form > div {
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .publish > form > div > input {
+      width: 65%;
+    }
+  
+    .features {
+      padding: 5% 0;
+      grid-template: repeat(4, 1fr) / 1fr;
+    }
+  
+    .feature-image {
+      display: none;
+    }
+  
+    .success-stories {
+      flex-direction: column;
+      padding: 5% 15px;
+    }
+  
+    .success-stories > .overview {
+      padding-right: unset;
+    }
+  
+    .success-stories .stories-carousel .card {
+      min-height: 832px;
+    }
+  
+    .success-stories .stories-carousel .card .card-media img {
+      max-height: unset;
+    }
+  
+    .how-does-it-work {
+      padding: 5% 15px;
+    }
+  
+    .how-does-it-work .description {
+      max-width: unset;
+    }
+  
+    .how-does-it-work .steps {
+      grid-template-columns: 1fr;
+    }
+  
+    .how-does-it-work .steps .card-step {
+      margin-left: unset;
+      margin-right: unset;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      position: relative;
+    }
+  
+    .how-does-it-work .steps .card-step .card-step-image {
+      position: initial;
+      height: unset;
+    }
+  
+    .how-does-it-work .steps .card-step .card-step-body h3 {
+      text-align: left;
+      margin-top: 30px;
+    }
+    .formulario {
+        background-color: #a1d683;
+        padding-bottom: 30%;
+    }
+    
+    .formulario form {
+        display: flex;
+        flex-wrap: unset;
+        flex-direction: column;
+        
+    }
+    
+    .formulario p {
+        font-size: 20px;
+        color: #f8f8f8;
+        font-weight: 400;
+    }
+    
+    .formulario label {
+        font-family: "Alegreya", serif;
+        font-size: 40px;
+        line-height: 48px;
+        color:#025157
+    }
+    .formulario button {
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 7%;
+        line-height: 20px;
+        height: 80px;
+        margin-left: 0;
+        border-radius: 10%;
+        margin-top: 6px;
+    }
+    .formulario .banner {
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+  }
+  
+      /** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+
+    
+}
+  
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+ 
+  }
+/** dispositivos medianos (tablets) */
+
+
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
+  
