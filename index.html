@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
+<!-- https://bedu-fef.netlify.app/ -->
 
+<!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+
+<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
+
+<!-- https://gridbyexample.com/examples/ -->
 
 <head>
     <!-- Aquí va información importante pero no visible dentro del navegador -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device, initial-scale=scale=1.0">
+    <meta name="viewport" content="width=device, initial-scale=scale=1.0, user-scalable=no">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css"/>
 </head>
@@ -22,11 +28,11 @@
             <!-- menu de navegación-->
             <nav class="navbar">
                 <ul>
-                    <li>Plataform</li>
-                    <li>Pricing</li>
-                    <li>Customers</li>
-                    <li>Resources</li>
-                    <li>About</li>
+                    <li class="menu-item">Plataform</li>
+                    <li class="menu-item">Pricing</li>
+                    <li class="menu-item">Customers</li>
+                    <li class="menu-item">Resources</li>
+                    <li class="menu-item">About</li>
                 </ul>
             </nav>
                 <!--Contenedor de acciones de usuario-->
@@ -53,13 +59,19 @@
     <h6>Uso de fuentes de enería renovable como hidrógeno verde</h6>
     <p>Estas tecnologías estan transformando de manera exponencial la humanidad, para ser parte de esta oleada de inovación tecnológica la educación debe ser transformada. Se parte de ese cambio a través de <b>VID21.<b/></p>
     <!-- Contenido previo -->
-   <!-- ... -->
+    
 
+ 
+ 
+
+</article>
    <!-- Contenedor de video -->
    <!-- Contenedor -->
+  
+  
    <section class="promo">
    <!-- Video -->
-   <article class="explanatory-video">
+        <div class="explanatory-video">
         <video
         controls
         poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
@@ -77,7 +89,7 @@
         src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
         alt="See how it works"
         />
-    </article>
+    
         <!-- Contenido de publicidad -->
         <article class="publicidad">
             <h3>Aprende con nosotros las habilidades del siglo XXI</h3>
@@ -86,7 +98,7 @@
             requieres de algo más con nosotros aseguras adquirir esas habilidades y prepararte para el futuro.
             </p>
             <form>
-            <p>Pide una clasae prueba ahora</p>
+            <p>Pide una clase prueba ahora</p>
             <div>
                 <input type="text" placeholder="Enter email" />
                 <button>Start My Trial</button>
@@ -94,6 +106,8 @@
             </form>
         </article>
     </section>
+    
+  
     </section>
     <section class="success-stories">
     <article class="overview">
@@ -364,123 +378,133 @@
                 </figure>
               </div>
             </article>
-          
+            <section class="how-does-it-work">
+              <h2 class="title">How does Matcha wok?</h2>
+              <p class="description">
+                Your blog can be so much more than window dressing. Use Matcha’s
+                <a href="#">simple formula</a> to transform your blog into an ecommerce
+                growth engine.
+              </p>
+              <button>Explore the Platform</button>
+              <div class="steps">
+                <article class="card-step">
+                  <div class="card-step-image">
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png"
+                      alt="Publish"
+                      class="card-step-bg"
+                    />
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_content.png"
+                      alt="Content icon"
+                      class="card-step-icon"
+                    />
+                  </div>
+                  <div class="card-step-body">
+                    <h3>Publish</h3>
+                    <p>
+                      Effortlessly fill your blog with content that shoppers want to
+                      read.
+                    </p>
+                    <a href="#">Publish instantly →</a>
+                  </div>
+                </article>
+                <article class="card-step">
+                  <div class="card-step-image">
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png"
+                      alt="Promote"
+                      class="card-step-bg"
+                    />
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png"
+                      alt="Channels icon"
+                      class="card-step-icon"
+                    />
+                  </div>
+                  <div class="card-step-body">
+                    <h3>Promote</h3>
+                    <p>
+                      Use articles in email, social, and content ads to attract more
+                      site visitors.
+                    </p>
+                    <a href="#">Drrive morer site visitors →</a>
+                  </div>
+                </article>
+                <article class="card-step">
+                  <div class="card-step-image">
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png"
+                      alt="Capture"
+                      class="card-step-bg"
+                    />
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png"
+                      alt="Funnel icon"
+                      class="card-step-icon"
+                    />
+                  </div>
+                  <div class="card-step-body">
+                    <h3>Capture</h3>
+                    <p>
+                      Turn readers into email subscribers and subscribers into
+                      customers.
+                    </p>
+                    <a href="#">Grow your email list →</a>
+                  </div>
+                </article>
+                <article class="card-step">
+                  <div class="card-step-image">
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png"
+                      alt="Measure"
+                      class="card-step-bg"
+                    />
+                    <img
+                      src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png"
+                      alt="Chart icon"
+                      class="card-step-icon"
+                    />
+                  </div>
+                  <div class="card-step-body">
+                    <h3>Measure</h3>
+                    <p>
+                      See what’s working and what’s not to easily optimize for more
+                      traffic, email subscribers, and sales.
+                    </p>
+                    <a href="#">Track performance →</a>
+                  </div>
+                </article>
+              </div>
+            </section>    
+                  
+       <!-- ... -->
+  </article class="publish">    
+  <form action="">
+    <p>Escribenos y agendamos una videollamada para que conozcas más de nuestra propuesta</p>
+    <input type="email"><br>
+    <button type="submit">Enviar &rarr; &rarr;</button><br><br>
 
-          <section class="how-does-it-work">
-            <h2 class="title">How does Matcha wok?</h2>
-            <p class="description">
-              Your blog can be so much more than window dressing. Use Matcha’s
-              <a href="#">simple formula</a> to transform your blog into an ecommerce
-              growth engine.
-            </p>
-            <button>Explore the Platform</button>
-            <div class="steps">
-              <article class="card-step">
-                <div class="card-step-image">
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png"
-                    alt="Publish"
-                    class="card-step-bg"
-                  />
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_content.png"
-                    alt="Content icon"
-                    class="card-step-icon"
-                  />
-                </div>
-                <div class="card-step-body">
-                  <h3>Publish</h3>
-                  <p>
-                    Effortlessly fill your blog with content that shoppers want to
-                    read.
-                  </p>
-                  <a href="#">Publish instantly →</a>
-                </div>
-              </article>
-              <article class="card-step">
-                <div class="card-step-image">
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png"
-                    alt="Promote"
-                    class="card-step-bg"
-                  />
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png"
-                    alt="Channels icon"
-                    class="card-step-icon"
-                  />
-                </div>
-                <div class="card-step-body">
-                  <h3>Promote</h3>
-                  <p>
-                    Use articles in email, social, and content ads to attract more
-                    site visitors.
-                  </p>
-                  <a href="#">Drrive morer site visitors →</a>
-                </div>
-              </article>
-              <article class="card-step">
-                <div class="card-step-image">
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png"
-                    alt="Capture"
-                    class="card-step-bg"
-                  />
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png"
-                    alt="Funnel icon"
-                    class="card-step-icon"
-                  />
-                </div>
-                <div class="card-step-body">
-                  <h3>Capture</h3>
-                  <p>
-                    Turn readers into email subscribers and subscribers into
-                    customers.
-                  </p>
-                  <a href="#">Grow your email list →</a>
-                </div>
-              </article>
-              <article class="card-step">
-                <div class="card-step-image">
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png"
-                    alt="Measure"
-                    class="card-step-bg"
-                  />
-                  <img
-                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png"
-                    alt="Chart icon"
-                    class="card-step-icon"
-                  />
-                </div>
-                <div class="card-step-body">
-                  <h3>Measure</h3>
-                  <p>
-                    See what’s working and what’s not to easily optimize for more
-                    traffic, email subscribers, and sales.
-                  </p>
-                  <a href="#">Track performance →</a>
-                </div>
-              </article>
-            </div>
-          </section>    
+    <label for="name">Nombre</label>
+          <input type="text" id="name" name="fname" required><br><br>
+          <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+          <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+          <button type="submit">Enviar</button>
 
-    </article>    
-    <form action="">
-	    <p>Escribenos y agendamos una videollamada para que conozcas más de nuestra propuesta</p>
-	    <input type="email"><br>
-	    <button type="submit">Enviar &rarr; &rarr;</button><br><br>
+  </form>     
 
-	    <label for="name">Nombre</label>
-            <input type="text" id="name" name="fname" required><br><br>
-            <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-            <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-	    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-	    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-            <button type="submit">Enviar</button>
+  <figure class="banner">
+    <img
+      src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
+      alt="Capterra"
+    />
+  </figure>
+</main>	
 
-    </form>	
+
+    
     <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>                   
                     
      
