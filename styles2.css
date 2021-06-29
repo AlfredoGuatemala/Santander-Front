@@ -221,7 +221,7 @@ figure.intro > img {
     border-top-right-radius: 10px;
 }
 
-.success-stories .stories-carousel .card .card-media .figure {
+.success-stories .stories-carousel .card .card-media figure {
     margin-top: 0;
 }
 
@@ -242,3 +242,124 @@ figure.intro > img {
     align-items: center;
 }
 
+.success-stories .stories-carousel .card .card-media .company img {
+    max-width: 75%;
+}
+
+.success-stories .stories-carousel .card .card-body,
+.success-stories .stories-carousel .card .card-footer {
+    padding: 25px;
+}
+
+.success-stories .stories-carousel .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.success-stories .stories-carousel .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.success-stories .stories-carousel .card .card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.success-stories .stories-carousel .card .card-body .results img {
+    width: 26px;
+    margin-right: 26px;
+}
+
+.success-stories .stories-carousel .card .card-body .results p {
+    margin-top: 0;
+}
+
+.success-stories .stories-carousel .card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.success-stories .stories-carousel .card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2,330px) / repeat(2, 1fr);
+}
+
+.features .features-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.features .features-card .features-content {
+    padding: 30px 20px 40px 40px;
+    flex 2
+}
+
+.features .features-card .features-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.features .features-card .features-content img {
+    width: 50px;
+}
+
+.features .features-card .features-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .features-card .features-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .features-card .features-content a {
+    font-size: 16px;
+    color:#67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.features .features-card .features-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50x;
+    height: 80%;
+}
+
+.features .features-card .features-image figure,
+.features .features-card .features-image img {
+    margin-top: 0;
+    height: 100%;
+}
+}
