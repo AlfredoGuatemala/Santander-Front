@@ -467,19 +467,33 @@ figure.intro > img {
 }
 
 .formulario {
+    display: flex;
     background-color: #a1d683;
     padding-bottom: 5%;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 .formulario form {
     display: flex;
+    align-content: center;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: baseline;
-    align-items: flex-end;    
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+.formulario input {
+    text-align: center;
+    align-items: center;
 }
 
 .formulario p {
-    font-size: 40px;
+    font-family: "Alegreya", serif;
+    font-size: 20px;
     color: #f8f8f8;
     font-weight: 400;
 }
@@ -493,15 +507,18 @@ figure.intro > img {
 .formulario button {
     font-size: 14px;
     font-weight: 600;
-    padding-left: 7%;
+    padding-left: 9%;
     line-height: 20px;
-    height: 80px;
+    height: 40px;
     margin-left: 0;
-    border-radius: 10%;
+    border-radius: 2%;
     margin-top: 6px;
 }
 
-
+.formulario .banner {
+    display: flex;
+    align-items: flex-end;
+}
 
 
 @media (max-width: 575px) {
@@ -627,9 +644,13 @@ figure.intro > img {
     
     .formulario form {
         display: flex;
-        flex-wrap: unset;
         flex-direction: column;
-        
+        text-align: center;
+        align-items: center;
+    }
+
+    .formulario input {
+        text-align: center;
     }
     
     .formulario p {
