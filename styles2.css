@@ -520,7 +520,12 @@ figure.intro > img {
     justify-content: flex-start;
     align-items: flex-end;
  }
-
+ 
+.formulario .carouselExampleFade .carousel .slide .carousel-fade {
+    display: flex;
+    align-items: flex-end;
+    max-width: auto;
+} 
 
 @media (max-width: 575px) {
     main {
