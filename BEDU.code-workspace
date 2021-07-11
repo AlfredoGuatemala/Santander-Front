@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Benchmark"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Santander-Front"
+	}
+}
