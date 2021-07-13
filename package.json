@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AlfredoGuatemala/Santander-Front#readme",
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "sass": "^1.35.1"
   }
 }
